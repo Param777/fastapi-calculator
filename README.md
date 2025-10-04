@@ -35,13 +35,13 @@ fastapi-calculator
    uvicorn app.main:app --reload
 
    ```
-    To run uvicorn using the Python module (python -m uvicorn), which is more portable.
+    To run uvicorn using the Python module
 
     ```
    python -m uvicorn app.main:app --reload
 
     ```
-    
+
 ## Usage
 
 Once the application is running, you can access the calculator endpoints at `http://localhost:8000/docs` to see the available operations and test them.
